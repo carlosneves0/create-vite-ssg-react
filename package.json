@@ -1,0 +1,33 @@
+{
+    "name": "create-vite-react-ssg",
+    "type": "module",
+    "version": "0.0.1",
+    "description": "Bootstrap a Vite React/JSX SSG project",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/carlosneves0/create-vite-react-ssg.git"
+    },
+    "keywords": [
+        "vite",
+        "react",
+        "ssg"
+    ],
+    "author": "Carlos Neves",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/carlosneves0/create-vite-react-ssg/issues"
+    },
+    "homepage": "https://github.com/carlosneves0/create-vite-react-ssg#readme",
+    "devDependencies": {
+        "prettier": "^3.4.2"
+    },
+    "dependencies": {
+        "picocolors": "^1.1.1",
+        "pretty-ms": "^9.2.0",
+        "prompts": "^2.4.2"
+    }
+}
