@@ -13,7 +13,7 @@ const argv = process.argv.slice(2),
 // TO-DO: help?
 // TO-DO: version?
 
-const defaultTargetPath = "vite-react-ssg-project",
+const defaultTargetPath = "vite-ssg-react-project",
     argTargetPath = argv[0]?.trim().replace(/\/+$/, ""),
     targetPath = resolve(argTargetPath || defaultTargetPath)
 

@@ -8,35 +8,35 @@ Bootstrap a [Vite SSG React](https://www.npmjs.com/package/vite-ssg-react) proje
 > Vite requires [Node.js](https://nodejs.org/en/) version 18+, 20+. Please upgrade if your package manager warns about it.
 
 ```bash
-npm create vite-react-ssg@latest
+npm create vite-ssg-react@latest
 ```
 
 ```bash
-yarn create vite-react-ssg
+yarn create vite-ssg-react
 ```
 
 ```bash
-pnpm create vite-react-ssg
+pnpm create vite-ssg-react
 ```
 
 ```bash
-bun create vite-react-ssg
+bun create vite-ssg-react
 ```
 
 You may directly specify the project name:
 
 ```bash
-npm create vite-react-ssg@latest my-static-site
+npm create vite-ssg-react@latest my-static-site
 ```
 
 ```bash
-yarn create vite-react-ssg my-static-site
+yarn create vite-ssg-react my-static-site
 ```
 
 ```bash
-pnpm create vite-react-ssg my-static-site
+pnpm create vite-ssg-react my-static-site
 ```
 
 ```bash
-bun create vite-react-ssg my-static-site
+bun create vite-ssg-react my-static-site
 ```
