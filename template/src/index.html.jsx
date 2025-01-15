@@ -3,7 +3,7 @@ import Footer from "./component/Footer"
 import reactSVG from "./asset/react.svg"
 import "./index.css"
 
-export default function HomeHTML({ cssLinks }) {
+export default function HomeHTML({ cssLinks = [] }) {
     return (
         <html lang="en">
             <head>
@@ -11,10 +11,9 @@ export default function HomeHTML({ cssLinks }) {
                 <meta name="viewport" content="width=device-width,user-scalable=yes" />
                 <meta name="color-scheme" content="light dark" />
                 <link rel="icon" type="image/svg+xml" href={reactSVG} />
-                {cssLinks &&
-                    cssLinks.map(cssLink => (
-                        <link key={cssLink} rel="stylesheet" href={cssLink} />
-                    ))}
+                {cssLinks.map(cssLink => (
+                    <link key={cssLink} rel="stylesheet" href={cssLink} />
+                ))}
                 <title>Home page</title>
             </head>
             <body>
