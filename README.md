@@ -1,4 +1,4 @@
-# create-vite-ssg-react <a href="https://npmjs.com/package/create-vite-ssg-react"><img src="https://img.shields.io/npm/v/create-vite-ssg-react" alt="npm package"></a>
+# `create-vite-ssg-react` <a href="https://npmjs.com/package/create-vite-ssg-react"><img src="https://img.shields.io/npm/v/create-vite-ssg-react" alt="npm package"></a>
 
 Bootstrap a [Vite SSG React](https://www.npmjs.com/package/vite-ssg-react) project.
 

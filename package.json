@@ -1,8 +1,8 @@
 {
     "name": "create-vite-ssg-react",
     "type": "module",
-    "version": "0.0.5",
-    "description": "Bootstrap a Vite React/JSX SSG project",
+    "version": "0.0.6",
+    "description": "Bootstrap a Vite SSG React/JSX project",
     "engines": {
         "node": "^18.0.0 || ^20.0.0 || >=22.0.0"
     },

@@ -8,7 +8,7 @@ export default function NavBar({ links }) {
                         href={href}
                         className={isDisabled ? "disabled" : undefined}
                     >
-                        <li>{text}</li>
+                        <li>{text ?? href}</li>
                     </a>
                 ))}
             </ul>

@@ -1,8 +1,8 @@
-import Footer from "../component/Footer"
-import reactSVG from "../asset/react.svg"
-import "../index.css"
+import Footer from "./component/Footer"
+import reactSVG from "./asset/react.svg"
+import "./index.css"
 
-export const title = "Foo"
+export const title = "Bar"
 
 export default function HomeHTML({ cssLinks, jsLinks }) {
     return (

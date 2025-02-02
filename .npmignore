@@ -1,4 +1,5 @@
 /.prettierrc.js
+/makefile
 /node_modules
 /test
 /tmp
